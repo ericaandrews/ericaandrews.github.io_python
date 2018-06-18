@@ -13,3 +13,19 @@ stolen_coins = 3
 weeks_of_year= 52
 print ((found_coins + (magic_coins * days_of_year)) - (stolen_coins * weeks_of_year))
 
+found_coins = 20
+magic_coins = 10
+stolen_coins = 3
+print(found_coins + magic_coins * 365 - stolen_coins * 52)
+stolen_coins = 2
+print(found_coins + magic_coins * 365 - stolen_coins * 52)
+magic_coins = 13
+print(found_coins + magic_coins * 365 - stolen_coins * 52)
+
+found_coins = 20
+magic_coins = 70
+stolen_coins = 3
+coins = found_coins
+for week in range(1, 53):
+    coins = coins + magic_coins - stolen_coins
+    print('Week %s = %s' % (week, coins))
