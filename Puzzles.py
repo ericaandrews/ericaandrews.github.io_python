@@ -101,6 +101,11 @@ def spaceship_building(cans):
 spaceship_building(2)
 spaceship_building(13)
  
+def testfunc(myname):
+    print('hello %s' % myname)
+
+testfunc('Mary')
+
 
 #Random
 import random
