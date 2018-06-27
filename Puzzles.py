@@ -90,4 +90,10 @@ print(keyword.iskeyword('keyword'))
 import sys
 
 sys.exit()
+
+#Quotes in strings
+silly_strings = '''He said, "Aren't can't shouldn't wouldn't."'''
+print (silly_strings)
+
+
     
