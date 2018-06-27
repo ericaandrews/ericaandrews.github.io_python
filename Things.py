@@ -29,5 +29,5 @@ class giraffes(mammals):
         self.right_foot_backward()
         self.left_foot_backward()
 
-reginald= giraffes()
+reginald = giraffes()
 reginald.dance()
