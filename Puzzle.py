@@ -25,3 +25,22 @@ print ((roofs * ninjas_per_roof) + (tunnels * samurai_per_tunnel))
 first_name = "Erica"
 last_name = "Andrews"
 print('"Hi there, %s %s"' % (first_name, last_name))
+
+#For loops
+for a in range (1,30,2):
+    print (a)
+    
+for a in range (0, 30):
+    if (a % 2 == 1):
+        print(a) 
+
+ingredients=['snails', 'leeches', 'gorilla belly-button lint', 'catepillar eyebrows', 'centipede toes']
+for i in range (len(ingredients)):
+    print (i,ingredients[i])  
+
+ingredients=['snails', 'leeches', 'gorilla belly-button lint', 'catepillar eyebrows', 'centipede toes']
+x = 1
+for i in ingredients:
+    print ('%s %s' % (x,i))
+    x = x + 1
+    
