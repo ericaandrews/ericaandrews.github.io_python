@@ -43,6 +43,25 @@ print ('Regards')
 print ('Malcolm Dithering')
 
 
+#For loops
+for a in range (1,30,2):
+    print (a)
+    
+for a in range (0, 30):
+    if (a % 2 == 1):
+        print(a) 
+
+ingredients=['snails', 'leeches', 'gorilla belly-button lint', 'catepillar eyebrows', 'centipede toes']
+for i in range (len(ingredients)):
+    print (i,ingredients[i])  
+
+ingredients=['snails', 'leeches', 'gorilla belly-button lint', 'catepillar eyebrows', 'centipede toes']
+x = 1
+for i in ingredients:
+    print ('%s %s' % (x,i))
+    x = x + 1
+
+	
 #Defined function
 def dear_sir_letter():
 	space = (" ") * 25
@@ -68,31 +87,20 @@ def dear_sir_letter():
 print(dear_sir_letter())
 
 
-#Function with parameters
+#Functions with parameters
 def savings(pocket_money, paper_route, spending):
     return pocket_money + paper_route - spending
-
 print(savings(10, 10, 5))
 
-
-#For loops
-for a in range (1,30,2):
-    print (a)
-    
-for a in range (0, 30):
-    if (a % 2 == 1):
-        print(a) 
-
-ingredients=['snails', 'leeches', 'gorilla belly-button lint', 'catepillar eyebrows', 'centipede toes']
-for i in range (len(ingredients)):
-    print (i,ingredients[i])  
-
-ingredients=['snails', 'leeches', 'gorilla belly-button lint', 'catepillar eyebrows', 'centipede toes']
-x = 1
-for i in ingredients:
-    print ('%s %s' % (x,i))
-    x = x + 1
-  
+def spaceship_building(cans):
+    total_cans = 0
+    for week in range(1,53):
+        total_cans = total_cans + cans
+        print('Week %s = %s cans' % (week, total_cans))
+        
+spaceship_building(2)
+spaceship_building(13)
+ 
 
 #Random
 import random
@@ -112,6 +120,7 @@ import keyword
 
 print(keyword.kwlist)
 
+
 #Check if word is keyword
 print(keyword.iskeyword('if'))
 print(keyword.iskeyword('else'))
@@ -122,6 +131,7 @@ print(keyword.iskeyword('keyword'))
 import sys
 
 sys.exit()
+
 
 #Quotes in strings
 silly_strings = '''He said, "Aren't can't shouldn't wouldn't."'''
