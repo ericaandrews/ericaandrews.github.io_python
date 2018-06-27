@@ -42,6 +42,7 @@ print ()
 print ('Regards')
 print ('Malcolm Dithering')
 
+
 #For loops
 for a in range (1,30,2):
     print (a)
