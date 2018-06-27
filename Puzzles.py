@@ -28,6 +28,19 @@ first_name = "Erica"
 last_name = "Andrews"
 print('"Hi there, %s %s"' % (first_name, last_name))
 
+space = ' '*25
+print ('%s 12 Name Street'% space)
+print ('%s Twinklebottom Heath'% space)
+print ('%s WestSnoring'% space)
+print ()
+print ('Dear Sir')
+print ()
+print ('I wish to report that tiles are missing from the')
+print ('outside roof.')
+print ('I think it was wind the other night that blew them away.')
+print ()
+print ('Regards')
+print ('Malcolm Dithering')
 
 #For loops
 for a in range (1,30,2):
