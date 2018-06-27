@@ -1,9 +1,9 @@
 #Combine lists
-games = ['reading', 'walking', 'cooking', 'driving', 'hanging out']
-print(games)
+activities = ['reading', 'walking', 'cooking', 'driving', 'hanging out']
+print(activities)
 foods = ['pastas', 'sushi', 'tacos', 'sandwitches', 'salads']
 print(foods)
-favorites = (games + foods)
+favorites = (activities + foods)
 print (favorites)
 
 
@@ -24,14 +24,14 @@ print ((roofs * ninjas_per_roof) + (tunnels * samurai_per_tunnel))
 
 
 #Placeholders
-first_name = "Erica"
-last_name = "Andrews"
+first_name = "FirstName"
+last_name = "LastName"
 print('"Hi there, %s %s"' % (first_name, last_name))
 
 space = ' '*25
 print ('%s 12 Name Street'% space)
-print ('%s Twinklebottom Heath'% space)
-print ('%s WestSnoring'% space)
+print ('%s Twinkle Heath'% space)
+print ('%s West Sno'% space)
 print ()
 print ('Dear Sir')
 print ()
@@ -68,8 +68,8 @@ def dear_sir_letter():
 	print()
 	print()
 	print("%s 12 Name Street" %space)
-	print("%s Twinklebottom Health " %space)
-	print("%s West Snoring " %space)
+	print("%s Twinkle Health " %space)
+	print("%s West Sno " %space)
 	print()
 	print()
 	print("Dear Sir")
@@ -92,25 +92,33 @@ def savings(pocket_money, paper_route, spending):
     return pocket_money + paper_route - spending
 print(savings(10, 10, 5))
 
+
 def spaceship_building(cans):
     total_cans = 0
     for week in range(1,53):
         total_cans = total_cans + cans
-        print('Week %s = %s cans' % (week, total_cans))
-        
+        print('Week %s = %s cans' % (week, total_cans))      
 spaceship_building(2)
 spaceship_building(13)
  
+	
 def testfunc(myname):
     print('hello %s' % myname)
+testfunc('MyName')
 
-testfunc('Mary')
+
+def testfunc(fname, lname):
+    print('Hello %s %s' % (fname, lname))
+testfunc('FirstName', 'LastName')
+firstname = 'FirstName'
+lastname = 'LastName'
+testfunc(firstname, lastname)
 
 
 #Random
 import random
 
-deserts= ['cookies', 'ice cream', 'banana sundaes', 'brownies','cake']
+deserts= ['cookies', 'ice cream', 'sundaes', 'brownies','cake']
 print(random.choice(deserts))
 print(random.choice(deserts))
 
