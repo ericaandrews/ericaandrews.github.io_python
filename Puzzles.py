@@ -43,6 +43,38 @@ print ('Regards')
 print ('Malcolm Dithering')
 
 
+#Defined function
+def dear_sir_letter():
+	space = (" ") * 25
+	print()
+	print()
+	print("%s 12 Name Street" %space)
+	print("%s Twinklebottom Health " %space)
+	print("%s West Snoring " %space)
+	print()
+	print()
+	print("Dear Sir")
+	print()
+	print("I wish to report that tiles are missing from the ")
+	print("outside roof")
+	print("I think it was wind the other night that blew them away.")
+	print()
+	print("Regards")
+	print("Malcolm Dithering")
+	print()
+	print()
+	print()
+
+print(dear_sir_letter())
+
+
+#Function with parameters
+def savings(pocket_money, paper_route, spending):
+    return pocket_money + paper_route - spending
+
+print(savings(10, 10, 5))
+
+
 #For loops
 for a in range (1,30,2):
     print (a)
