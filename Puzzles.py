@@ -321,9 +321,10 @@ while 1:
     time.sleep(0.01)
 
 #Graphics
+
+#Car
 import turtle
 t = turtle.Pen()
-
 t.color(1,0,0) 
 t.begin_fill() 
 t.forward(100) 
@@ -359,3 +360,53 @@ t.begin_fill()
 t.down() 
 t.circle(10) 
 t.end_fill()
+
+#Box
+import turtle
+t = turtle.Pen()
+t.forward(50)
+t.left(45)
+t.up()
+t.forward(50)
+t.down()
+t.left(45)
+t.forward(50)
+t.left(45)
+t.up()
+t.forward(50)
+t.down()
+t.left(45)
+t.forward(50)
+t.left(45)
+t.up()
+t.forward(50)
+t.down()
+t.left(45)
+t.forward(50)
+t.left(45)
+t.up()
+t.forward(50)
+t.down()
+t.left(45)
+
+#Isosceles
+import turtle
+t = turtle.Pen()
+t.forward(50)
+t.left(104.47751218592992)
+t.forward(100)
+t.left(151.04497562814015)
+t.forward(100)
+t.left(104.47751218592992)
+
+#Rectangle
+import turtle
+t = turtle.Pen()
+t.forward(100)
+t.left(90)
+t.forward(50)
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(50)
+
