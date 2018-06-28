@@ -140,6 +140,33 @@ print(keyword.iskeyword('else'))
 print(keyword.iskeyword('keyword'))
 
 
+#Tuple
+fibs = (0,1,1,2,3)
+print (fibs [4])
+print (fibs [3])
+print (fibs [2])
+print (fibs [1])
+print (fibs [0])
+
+#Map
+favorite_sports= {'Ralph Williams' : 'Football',
+                  'Michael Tippett' : 'Basketball',
+                  'Edward Elgar' :  'Baseball',
+                  'Rebecca Clarke' :  'Netball',
+                  'Ethel Smyth' : 'Badminton',
+                  'Frank Bridge' :  'Rugby'}
+
+#Printing value of item in map
+print (favorite_sports['Rebecca Clarke'])
+print (favorite_sports)
+#Deleting item in map
+del favorite_sports ['Ethel Smyth']
+print (favorite_sports)
+#Changing items value in map
+favorite_sports ['Ralph Williams'] = 'Ice Hockey'
+print (favorite_sports)
+
+
 #System exit
 import sys
 
