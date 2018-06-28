@@ -71,6 +71,9 @@ if twinkies < 100 or twinkies > 500:
 for a in range (1,30,2):
     print (a)
     
+for x in range(2, 16, 2):
+    print(x)
+
 for a in range (0, 30):
     if (a % 2 == 1):
         print(a) 
