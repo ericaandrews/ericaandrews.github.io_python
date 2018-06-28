@@ -127,6 +127,23 @@ def your_age():
 your_age()
 
 
+#Absolute function
+print(abs(10))
+print(abs(-10))
+
+steps = -3
+if abs(steps) > 0:
+    print('Character is moving')
+else: 
+    print('Character is not moving')
+    
+steps = -3
+if (steps) > 0:
+    print('Character is moving')    
+else: 
+    print('Character is not moving')
+
+
 #Random
 import random
 
@@ -188,6 +205,7 @@ sys.exit()
 #Quotes in strings
 silly_strings = '''He said, "Aren't can't shouldn't wouldn't."'''
 print (silly_strings)
+
 
 
     
