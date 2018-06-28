@@ -235,6 +235,7 @@ for x in range(0, 60):
 
 
 #Animated Game
+#Use left and right keys to move paddle
 from tkinter import *
 import random
 import time
