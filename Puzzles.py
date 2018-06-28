@@ -234,8 +234,6 @@ for x in range(0, 60):
     time.sleep(0.05)
 
 
-#Animated Game 
-
 #Animated Game
 from tkinter import *
 import random
@@ -320,4 +318,3 @@ while 1:
     tk.update_idletasks()
     tk.update()
     time.sleep(0.01)
-
