@@ -43,6 +43,30 @@ print ('Regards')
 print ('Malcolm Dithering')
 
 
+#If statements
+amount = 800
+if (amount >= 100 and amount <= 500) or (amount >= 1000 and amount <= 5000):
+    print('amount is between 100 & 500 or between 1000 & 5000')
+amount = 400
+if (amount >= 100 and amount <= 500) or (amount >= 1000 and amount <= 5000):
+    print('amount is between 100 & 500 or between 1000 & 5000')
+amount = 3000
+if (amount >= 100 and amount <= 500) or (amount >= 1000 and amount <= 5000):
+    print('amount is between 100 & 500 or between 1000 & 5000')
+
+ninjas = 5
+if ninjas < 10:
+    print("I can fight those ninjas!")
+elif ninjas < 30:
+    print("It'll be a struggle, but I can take 'em")
+elif ninjas < 50:
+    print("That's too many")
+    
+twinkies = 600
+if twinkies < 100 or twinkies > 500:
+    print('Too few or too many')    
+
+
 #For loops
 for a in range (1,30,2):
     print (a)
