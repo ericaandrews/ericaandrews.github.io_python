@@ -495,7 +495,6 @@ import time
 		t.right(45)
 	    if filled == True:
 		t.end_fill()
-
 	t.color(1, 0.85, 0)
 	octagon(40, True)
 	t.color(0, 0, 0)
@@ -508,7 +507,6 @@ import time
 	    for x in range(1,9):
 		t.forward(size)
 		t.right(45)
-
 	octagon(100)
 	
 	#Star
@@ -521,5 +519,27 @@ import time
 		t.left(180 - angle)
 		t.forward(size)
 		t.right(180-(angle * 2))
-
 	draw_star(80, 70)
+	
+	#Triangle graphics
+	import time
+	import random
+	from tkinter import *
+	w = 400
+	h = 400
+	tk = Tk()
+	canvas = Canvas(tk, width=400, height=400)
+	canvas.pack()
+	colors = ['red','green','blue','yellow','orange','white','purple']
+	def random_triangle():
+	    p1 = random.randrange(w)
+	    p2 = random.randrange(h)
+	    p3 = random.randrange(w)
+	    p4 = random.randrange(h)
+	    p5 = random.randrange(w)
+	    p6 = random.randrange(h)
+	    color = random.choice(colors)
+	    canvas.create_polygon(p1, p2, p3, p4, p5, p6, fill=color, outline="")
+	for x in range(0, 100):
+	    random_triangle()
+	    tk.update()
