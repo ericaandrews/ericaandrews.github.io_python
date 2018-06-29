@@ -500,3 +500,26 @@ import time
 	octagon(40, True)
 	t.color(0, 0, 0)
 	octagon(40, False)
+	
+	#Octagon without color
+	import turtle
+	t = turtle.Pen()
+	def octagon(size):
+	    for x in range(1,9):
+		t.forward(size)
+		t.right(45)
+
+	octagon(100)
+	
+	#Star
+	import turtle
+	t = turtle.Pen()
+	def draw_star(size, points):
+	    angle = 360 / points
+	    for x in range(0, points):
+		t.forward(size)
+		t.left(180 - angle)
+		t.forward(size)
+		t.right(180-(angle * 2))
+
+	draw_star(80, 70)
