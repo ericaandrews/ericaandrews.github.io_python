@@ -578,13 +578,11 @@ while 1:
 	#Circle
 	import turtle
 	t = turtle.Pen()
-
 	def mycircle(red, green, blue):
 	    t.color(red, green, blue)
 	    t.begin_fill()
 	    t.circle(50)
 	    t.end_fill()
-
 	mycircle(0, 0.5, 0)
 
 	#Diagonal line
@@ -602,7 +600,6 @@ while 1:
 	tk = Tk()
 	canvas = Canvas(tk, width=400,height=400)
 	canvas.pack()
-
 	canvas.create_arc(10, 10, 200, 80, extent=45, style=ARC)
 	canvas.create_arc(10, 80, 200, 160, extent=90, style=ARC)
 	canvas.create_arc(10, 160, 200, 240, extent=135, style=ARC)
@@ -618,4 +615,18 @@ while 1:
 	canvas.pack()
 	canvas.create_polygon(10, 10, 100, 10, 100, 110, fill="", outline="black")
 	canvas.create_polygon(200, 10, 240, 30, 120, 100, 140, 120, fill="", outline="black")
+	tk.update()
+
+	#Text
+	from tkinter import *
+	import time
+	tk = Tk()
+	canvas = Canvas(tk, width=400,height=400)
+	canvas.pack()
+	canvas.create_text(150, 120, text='There once was a man from Toulouse,')
+	canvas.create_text(150, 140, text='Who rode around on a moose.', fill='red')
+	canvas.create_text(170, 170, text='He said, "It\'s my curse,', font=('Times', 15))
+	canvas.create_text(200, 200, text='But it could be worse,', font=('Helvetica', 20))
+	canvas.create_text(220, 250, text='My cousin rides around', font=('Courier', 22))
+	canvas.create_text(220, 300, text='on a goose."', font=('Courier', 30))
 	tk.update()
