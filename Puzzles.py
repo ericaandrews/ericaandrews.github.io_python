@@ -680,3 +680,15 @@ while 1:
 	    t.forward(100)
 	    t.left(175)
 	time.sleep(0.05)
+	
+	#Nine-point star
+	import turtle
+	import time
+	t = turtle.Pen()
+	for x in range(1,19):
+	    t.forward(100)
+	    if x % 2 == 0:
+		t.left(175)
+	    else:
+		t.left(225)
+	time.sleep(0.05)        
