@@ -630,3 +630,13 @@ while 1:
 	canvas.create_text(220, 250, text='My cousin rides around', font=('Courier', 22))
 	canvas.create_text(220, 300, text='on a goose."', font=('Courier', 30))
 	tk.update()
+
+	#Eight-Point Star
+	from tkinter import *
+	import turtle
+	import time
+	t = turtle.Pen()
+	for x in range(1,9):
+	    t.forward(100)
+	    t.left(225)
+	time.sleep(0.05)
