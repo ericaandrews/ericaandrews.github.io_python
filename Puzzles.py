@@ -714,3 +714,11 @@ while 1:
 	mysquare(75) 
 	mysquare(100) 
 	mysquare(125)
+
+	#Create Rectangle
+	from tkinter import *
+	tk = Tk()
+	canvas = Canvas(tk, width=400,height=400)
+	canvas.pack()
+	canvas.create_rectangle(200, 200, 150, 50)
+	tk.update()
