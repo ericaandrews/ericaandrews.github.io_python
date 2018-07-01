@@ -720,5 +720,5 @@ while 1:
 	tk = Tk()
 	canvas = Canvas(tk, width=400,height=400)
 	canvas.pack()
-	canvas.create_rectangle(200, 200, 150, 50)
+	canvas.create_rectangle(300, 300, 150, 50)
 	tk.update()
