@@ -777,3 +777,11 @@ while 1:
 	t.left(90)
 	t.down()
 	t.forward(100)
+
+	#Vertical rectangle
+	from tkinter import *
+	tk = Tk()
+	canvas = Canvas(tk, width=400,height=400)
+	canvas.pack()
+	canvas.create_rectangle(20, 50, 50, 300)
+	tk.update()
