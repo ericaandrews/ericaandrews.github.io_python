@@ -766,3 +766,14 @@ while 1:
 	t.left(90)
 	t.forward(50)
 	t.left(90)
+	
+	#Arrow
+	import turtle
+	t = turtle.Pen()
+	t.backward(100)
+	t.up()
+	t.right(90)
+	t.forward(20)
+	t.left(90)
+	t.down()
+	t.forward(100)
