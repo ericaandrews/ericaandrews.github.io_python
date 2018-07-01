@@ -671,3 +671,12 @@ while 1:
 	canvas.pack()
 	canvas.create_rectangle(100, 100, 300, 150)
 	tk.update()
+
+	#Many-point star
+	import turtle
+	import time
+	t = turtle.Pen()
+	for x in range(1,38):
+	    t.forward(100)
+	    t.left(175)
+	time.sleep(0.05)
