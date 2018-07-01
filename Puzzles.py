@@ -654,3 +654,12 @@ while 1:
 		t.end_fill()
 	mysquare(50, True)
 	mysquare(150, False)
+
+	#Small square
+	import turtle
+	import time
+	t = turtle.Pen()
+	for x in range(1,5):
+	    t.forward(50)
+	    t.left(90)
+	time.sleep(0.05)    
