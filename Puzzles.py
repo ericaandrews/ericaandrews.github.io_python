@@ -79,7 +79,7 @@
 	    print('Too few or too many')    
 
 
-#For loops
+#Loops
 	for a in range (1,30,2):
 	    print (a)
     
@@ -106,6 +106,13 @@
 	for i in ingredients:
 	    print ('%s %s' % (x,i))
 	    x = x + 1
+		
+	x = 45
+	y = 80
+	while x < 50 and y < 100:
+   	  x = x + 1
+   	  y = y + 1
+   	  print(x, y)	
 
 	
 #Defined function
