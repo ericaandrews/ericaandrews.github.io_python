@@ -89,6 +89,12 @@
 	for a in range (0, 30):
 	    if (a % 2 == 1):
 		print(a) 
+	
+	for x in range(0, 5):
+   	    print(x)
+            print(list(range(0, 5)))
+            count_by_twos = list(range(0, 30, 2))
+    	    print(count_by_twos)	
 
 	ingredients=['snails', 'leeches', 'gorilla belly-button lint', 'catepillar eyebrows', 'centipede toes']
 	for i in range (len(ingredients)):
