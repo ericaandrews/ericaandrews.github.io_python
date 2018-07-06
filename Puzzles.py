@@ -34,7 +34,6 @@
 	samurai_per_tunnel = 40
 	print ((roofs * ninjas_per_roof) + (tunnels * samurai_per_tunnel))
 
-
 #Placeholders
 	first_name = "FirstName"
 	last_name = "LastName"
@@ -53,7 +52,6 @@
 	print ()
 	print ('Regards')
 	print ('Malcolm Dithering')
-
 
 #If statements
 	amount = 800
@@ -77,7 +75,6 @@
 	twinkies = 600
 	if twinkies < 100 or twinkies > 500:
 	    print('Too few or too many')    
-
 
 #Loops
 	for a in range (1,30,2):
@@ -116,7 +113,6 @@
    	  x = x + 1
    	  y = y + 1
    	  print(x, y)	
-
 	
 #Defined function
 	def dear_sir_letter():
@@ -187,7 +183,6 @@
 	lastname = 'LastName'
 	testfunc(firstname, lastname)
 
-	
 #sys.stdin.readline()
 	def your_age():
 	    print('How old are you?')
@@ -197,7 +192,6 @@
 	    else:
 		print('Huh?')
 	your_age()
-
 
 #Absolute function
 	print(abs(10))
@@ -221,7 +215,6 @@
 	else: 
 	    print('Character is not moving')
 
-
 #Random
 import random
 	deserts= ['cookies', 'ice cream', 'sundaes', 'brownies','cake']
@@ -233,7 +226,6 @@ import random
 	random.shuffle(deserts)
 	print(deserts)
 
-
 #Keyword
 import keyword
 	print(keyword.kwlist)
@@ -243,7 +235,6 @@ import keyword
 	print(keyword.iskeyword('else'))
 	print(keyword.iskeyword('keyword'))
 
-
 #Tuple
 	fibs = (0,1,1,2,3)
 	print (fibs [4])
@@ -251,7 +242,6 @@ import keyword
 	print (fibs [2])
 	print (fibs [1])
 	print (fibs [0])
-
 
 #Map
 favorite_sports= {'Ralph Williams' : 'Football',
@@ -273,16 +263,13 @@ favorite_sports= {'Ralph Williams' : 'Football',
 	favorite_sports ['Ralph Williams'] = 'Ice Hockey'
 	print (favorite_sports)
 
-
 #System exit
 	import sys
 	sys.exit()
 
-
 #Quotes in strings
 	silly_strings = '''He said, "Aren't can't shouldn't wouldn't."'''
 	print (silly_strings)
-
 	
 #Boolean Testing    
 	print(bool(0))
@@ -313,18 +300,15 @@ favorite_sports= {'Ralph Williams' : 'Football',
 	year= input('Year of birth: ')
 	if not bool(year.rstrip()):
 	print("You need to enter a value for your year of birth")
-
 	
 #Eval    
 	calculations= input("Enter your calculation: ")
 	#Enter calculation; Press enter/return; Enter eval expression; 
 	eval(calculations)
-
 	
 #Exec
 	small_program='''print('ham'),print('sand')'''
 	exec(small_program)
-
 	
 #Len
 	list = ['me', 'my', 'mo', 'mu', 'ma']
@@ -342,14 +326,12 @@ favorite_sports= {'Ralph Williams' : 'Football',
 	for f in fruits:
 	    print('Item #%s: %s' %(x,f))
 	    x= x + 1
-
 		
 #Max    
 	list=[1,3,6,8,4,9,23,45,67,89]
 	print(max(list))
 	my_letters= ('m,y,l,e,t,t,e,r,s')
 	print(max(my_letters))
-
 	
 #Min
 	list=[3,6,8,2,34,64,76,12,34]
@@ -367,7 +349,6 @@ favorite_sports= {'Ralph Williams' : 'Football',
 	    print("You win!")
 	else:
 	    print("You lose!")	
-
 	
 #Animation
 import time
@@ -394,7 +375,6 @@ from tkinter import *
 	    canvas.move(1, -5, -5)
 	    tk.update()
 	    time.sleep(0.05)
-
 
 #Animated Game
 #Use left and right keys to move paddle
