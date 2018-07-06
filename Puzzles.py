@@ -1,11 +1,3 @@
-#Combine lists
-	activities = ['reading', 'walking', 'cooking', 'driving', 'hanging out']
-	print(activities)
-	foods = ['pastas', 'sushi', 'tacos', 'sandwitches', 'salads']
-	print(foods)
-	favorites = (activities + foods)
-	print (favorites)
-
 #Pickle
 	import pickle
 	favorites = [ 'PlayStation', 'Toffee', 'Movies', 'Python' ]
@@ -77,14 +69,24 @@
 	    print('Too few or too many')    
 
 #Loops
+	
+	for x in range(0,5):
+    		print ('hello')
+
+	for x in range(0,5):
+		print ('hello %s'%x)
+
+	for x in range(2,7):
+		print ('hello %s' %x)
+
 	for a in range (1,30,2):
-	    print (a)
+	    	print (a)
     
 	for x in range(2,16,2):
-	    print(x)
+	    	print(x)
 	
 	for e in range(60,40,-2):
-    	    print(e)
+    	    	print(e)
 
 	for a in range (0,30):
 	    if (a % 2 == 1):
@@ -114,6 +116,30 @@
    	  y = y + 1
    	  print(x, y)	
 	
+#Lists   
+	print (list(range(10,20)))
+
+	wizard_list= ['spider legs', 'toe of frog', 'snail tongue', 'bat wing', 'slug butter', 'bear burp']
+	for i in wizard_list:
+		print (i)
+	wizard_lists= ['spider', 'lady bug', 'moths', 'flies', 'praying mantis']
+	for j in wizard_lists:
+		print (j) 
+	wizard_list= ['spider legs', 'toe of frog', 'snail tongue', 'bat wing', 'slug butter', 'bear burp']
+	wizard_lists= ['spider', 'lady bug', 'moths', 'flies', 'praying mantis']
+	for v in wizard_list:
+		print (v)
+		for z in wizard_lists:
+		    print (z) 	
+		
+#Combine lists
+	activities = ['reading', 'walking', 'cooking', 'driving', 'hanging out']
+	print(activities)
+	foods = ['pastas', 'sushi', 'tacos', 'sandwitches', 'salads']
+	print(foods)
+	favorites = (activities + foods)
+	print (favorites)
+			
 #Defined function
 	def dear_sir_letter():
 		space = (" ") * 25
