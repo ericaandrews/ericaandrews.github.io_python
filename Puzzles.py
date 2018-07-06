@@ -83,17 +83,20 @@
 	for a in range (1,30,2):
 	    print (a)
     
-	for x in range(2, 16, 2):
+	for x in range(2,16,2):
 	    print(x)
+	
+	for e in range(60,40,-2):
+    	    print(e)
 
-	for a in range (0, 30):
+	for a in range (0,30):
 	    if (a % 2 == 1):
 		print(a) 
 	
-	for x in range(0, 5):
+	for x in range(0,5):
    	    print(x)
             print(list(range(0, 5)))
-            count_by_twos = list(range(0, 30, 2))
+            count_by_twos = list(range(0,30,2))
     	    print(count_by_twos)
 	    print(sum(count_by_twos))	
 
@@ -289,6 +292,60 @@ favorite_sports= {'Ralph Williams' : 'Football',
 	year= input('Year of birth: ')
 	if not bool(year.rstrip()):
 	print("You need to enter a value for your year of birth")
+
+	
+#Eval    
+	calculations= input("Enter your calculation: ")
+	#Enter calculation; Press enter/return; Enter eval expression; 
+	eval(calculations)
+
+	
+#Exec
+	small_program='''print('ham'),print('sand')'''
+	exec(small_program)
+
+	
+#Len
+	list = ['me', 'my', 'mo', 'mu', 'ma']
+	print(len(list))
+	map = {'me:erica','my:togga','mo:google', 'mu:swim', 'ma:hats'}
+	print(len(map))
+
+	fruits = ['apples', 'oranges', 'bananas', 'berries', 'mangoes']
+	length = len(fruits)
+	for x in range(0, length):
+	    print('Item #%s: %s' %(x,fruits[x]))
+
+	fruits = ['apples', 'oranges', 'bananas', 'berries', 'mangoes']
+	x = 0
+	for f in fruits:
+	    print('Item #%s: %s' %(x,f))
+	    x= x + 1
+
+		
+#Max    
+	list=[1,3,6,8,4,9,23,45,67,89]
+	print(max(list))
+	my_letters= ('m,y,l,e,t,t,e,r,s')
+	print(max(my_letters))
+
+	
+#Min
+	list=[3,6,8,2,34,64,76,12,34]
+	print(min(list))
+
+	player_guesses= [12,6,45,8,23]
+	if max(player_guesses) > 25:
+	    print("You win!")
+	else:
+	    print("You lose!")
+
+	guess_this_number = 25
+	player_guesses=[2,3,5,4,7,6,8]
+	if max(player_guesses) > guess_this_number:
+	    print("You win!")
+	else:
+	    print("You lose!")	
 
 	
 #Animation
