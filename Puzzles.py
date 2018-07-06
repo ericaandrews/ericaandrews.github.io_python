@@ -141,6 +141,27 @@
 		print()
 	print(dear_sir_letter())
 
+	def variable_test():
+	    first_variable = 10
+	    second_variable = 20
+	    return first_variable * second_variable
+	    #Press enter/return; Then enter print statement
+	    print(variable_test())
+
+	another_variable = 100
+	def variable_test2():
+	    first_variable = 10
+	    second_variable = 20
+	    return first_variable * second_variable * another_variable
+	print(variable_test2())
+    
+	def silly_age_joke(age):
+	    if age >=10 and age <=13:
+		print('What is 13 + 49 + 84 + 155 + 97? A headache!')
+	    else:
+		print('Huh?')
+	silly_age_joke(9)
+	silly_age_joke(10)
 
 #Functions with parameters
 	def savings(pocket_money, paper_route, spending):
