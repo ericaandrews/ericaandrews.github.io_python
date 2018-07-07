@@ -457,6 +457,14 @@ favorite_sports = {'Ralph Williams' : 'Football',
 	exec(small_program)
 	
 #Len
+	len('this is a test string')
+
+	creature_list = [ 'unicorn', 'cyclops', 'fairy', 'elf', 'dragon', 'troll' ]
+	print(len(creature_list))
+
+	enemies_map = { 'Batman' : 'Joker', 'Superman' : 'Lex Luther', 'Spiderman' : 'Green Goblin' }
+	print(len(enemies_map))
+
 	list = ['me', 'my', 'mo', 'mu', 'ma']
 	print(len(list))
 	map = {'me:erica','my:togga','mo:google', 'mu:swim', 'ma:hats'}
