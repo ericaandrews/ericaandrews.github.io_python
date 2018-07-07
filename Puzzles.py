@@ -380,7 +380,7 @@ import keyword
 	print (fibs [0])
 
 #Map
-favorite_sports= {'Ralph Williams' : 'Football',
+favorite_sports = {'Ralph Williams' : 'Football',
                   'Michael Tippett' : 'Basketball',
                   'Edward Elgar' :  'Baseball',
                   'Rebecca Clarke' :  'Netball',
