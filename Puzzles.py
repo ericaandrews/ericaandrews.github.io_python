@@ -351,10 +351,10 @@
 	else: 
 	    print('Character is not moving')
 
-#Class Method
-	class Giraffe:
-    		def __init__(self, spots):
-        		self.giraffe_spots = spots
+#Class Method	
+	class Giraffes:
+	    def __init__(self, spots):
+		self.giraffe_spots = spots
 
 	ozwald = Giraffes(100)
 	gertrude = Giraffes(150)
