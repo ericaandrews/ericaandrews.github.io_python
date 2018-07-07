@@ -484,13 +484,12 @@ favorite_sports = {'Ralph Williams' : 'Football',
 #Max    
 	list=[1,3,6,8,4,9,23,45,67,89]
 	print(max(list))
+	
 	my_letters= ('m,y,l,e,t,t,e,r,s')
 	print(max(my_letters))
 	
-#Min
-	list=[3,6,8,2,34,64,76,12,34]
-	print(min(list))
-
+	print(max(10, 300, 450, 50, 90))
+	
 	player_guesses= [12,6,45,8,23]
 	if max(player_guesses) > 25:
 	    print("You win!")
@@ -503,6 +502,11 @@ favorite_sports = {'Ralph Williams' : 'Football',
 	    print("You win!")
 	else:
 	    print("You lose!")	
+	
+#Min
+	list=[3,6,8,2,34,64,76,12,34]
+	print(min(list))
+	
 	
 #Animation
 import time
