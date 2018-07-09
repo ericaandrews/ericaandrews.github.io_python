@@ -1,4 +1,4 @@
-#Horizontal Rectangle
+#Horizontal Rectangle Graphics
 	from tkinter import *
 	tk = Tk()
 	canvas = Canvas(tk, width=400,height=400)
