@@ -1,4 +1,4 @@
-#Diagonal line
+#Diagonal line graphics
 	from tkinter import *
 	import time
 	tk = Tk()
