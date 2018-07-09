@@ -1,4 +1,4 @@
-#Small square
+#Small square graphics
 	import turtle
 	import time
 	t = turtle.Pen()
