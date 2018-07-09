@@ -1,4 +1,4 @@
-#Drawing an Arc
+#Drawing an Arc Graphics
 	from tkinter import *
 	import time
 	tk = Tk()
