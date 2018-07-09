@@ -1,4 +1,4 @@
-	#Box Graphics
+#Box Graphics
 	import turtle
 	t = turtle.Pen()
 	t.forward(50)
