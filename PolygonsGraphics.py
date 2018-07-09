@@ -1,4 +1,4 @@
-#Polygons
+#Polygons Graphics
 	from tkinter import *
 	import time
 	tk = Tk()
