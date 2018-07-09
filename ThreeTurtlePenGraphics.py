@@ -1,4 +1,4 @@
-#Three turtle pens Graphics
+#Three turtle pen Graphics
 	import turtle
 	avery = turtle.Pen()
 	kate = turtle.Pen()
