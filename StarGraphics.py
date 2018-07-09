@@ -1,4 +1,4 @@
-#Star
+#Star Graphics
 	import turtle
 	t = turtle.Pen()
 	def draw_star(size, points):
@@ -10,3 +10,13 @@
 		t.right(180-(angle * 2))
 	draw_star(80, 70)
 	
+#Eight-Point Star
+	from tkinter import *
+	import turtle
+	import time
+	t = turtle.Pen()
+	for x in range(1,9):
+	    t.forward(100)
+	    t.left(225)
+	time.sleep(0.05)
+
