@@ -1,4 +1,4 @@
-	#Isosceles Graphics
+#Isosceles Graphics
 	import turtle
 	t = turtle.Pen()
 	t.forward(50)
