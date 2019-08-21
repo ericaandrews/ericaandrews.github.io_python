@@ -1,6 +1,12 @@
 #Animation
+#Input code one line at a time in order to avoid errors from required indentations
+#Make sure to apply indentation if you decide to copy and paste
+
+#Input this import first before canvas below in order to avoid error
 import time
 from tkinter import *
+
+********************************************************
 
 	tk = Tk()
 	canvas = Canvas(tk, width=400, height=200)
@@ -10,6 +16,8 @@ from tkinter import *
 	   canvas.move(1, 5, 0)
 	   tk.update()
 	   time.sleep(0.05)
+	
+********************************************************
 
 	tk = Tk()
 	canvas = Canvas(tk, width=400, height=400)
