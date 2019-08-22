@@ -5,6 +5,8 @@
 	eval("'py ' * 5")
 	eval("10 ** 2")
 	eval("'hello' + 'py'")
+	
+	#Call methods
 	eval("abs(-11)")
 	eval('"hello".upper()')
 	
