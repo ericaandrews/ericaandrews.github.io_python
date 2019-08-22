@@ -1,4 +1,5 @@
 #Box Graphics
+#Do not input indentations in order to avoid errors if copied and pasted
 	import turtle
 	t = turtle.Pen()
 	t.forward(50)
