@@ -1,5 +1,5 @@
 #Eval    
-	calculations= input("Enter your calculation: ")
-	#Enter calculation; Press enter/return; Enter eval expression; 
+	calculations= input(" ")
+	#Enter calculation; Press enter/return;
 	eval(calculations)
 	
