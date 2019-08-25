@@ -1,4 +1,4 @@
 #Exec
-	small_program='''print('ham'),print('sand')'''
+	small_program='''print('small'),print('program)'''
 	exec(small_program)
 	
