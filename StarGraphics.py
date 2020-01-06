@@ -50,7 +50,7 @@
 	    t.left(95)
 	time.sleep(0.05)  
 	
-#MyStar
+#My nine-point Star
 	import turtle
 	t = turtle.Pen()
 	def mystar(size, filled):
