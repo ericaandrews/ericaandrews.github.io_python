@@ -18,8 +18,3 @@
 	import os
 	eval('os.getcwd()')
 	
-
-
-
-
-
